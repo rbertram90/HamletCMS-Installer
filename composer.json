@@ -1,0 +1,12 @@
+{
+    "name": "rbertram90/hamlet-cms-installer",
+    "type": "composer-plugin",
+    "description": "HamletCMS Composer module and template installer",
+    "autoload": {
+        "psr-4": { "rbwebdesigns\\HamletCMS\\Installer": "src" }
+    },
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "composer/composer": "1.0.*@dev"
+    }
+}
