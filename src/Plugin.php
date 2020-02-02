@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Originated from the composer/installers project
+ */
+
 namespace rbwebdesigns\HamletCMS\Installer;
 
 use Composer\Composer;
@@ -14,4 +18,5 @@ class Plugin implements PluginInterface
         $installer = new Installer($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
     }
+    
 }
