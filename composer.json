@@ -7,7 +7,7 @@
     },
     "require": {
         "composer-plugin-api": "^2.0",
-        "composer/composer": "2.0.*@stable"
+        "composer/composer": "2.2.*@stable"
     },
     "extra": {
         "class": "rbwebdesigns\\HamletCMS\\Installer\\Plugin"
